@@ -6,14 +6,14 @@
 
 > **git 笔记**
 
-* [git 基本命令](git-notes/Git基本命令.md)
-* [git 简明指南](git-notes/Git简明指南.md)
-* [git Git使用](git-notes/Git使用.md)
+* [git 基本命令](git_notes/Git基本命令.md)
+* [git 简明指南](git_notes/Git简明指南.md)
+* [git Git使用](git_notes/Git使用.md)
 
 
 > **Github Markdown 笔记**
 
-* [Markdown使用](git-notes/Markdown文档使用说明和案例.md)
+* [Markdown使用](git_notes/Markdown文档使用说明和案例.md)
 
 
 > **Linux 笔记**
