@@ -24,8 +24,6 @@ $ sudo yum -y install git-core
 
 安装包下载地址：[http://msysgit.github.io/](http://msysgit.github.io/)
 * 下载并运行安装文件
-
-![Git Setup](http://www.runoob.com/wp-content/uploads/2015/02/20140127131250906)
 * 安装完成后，使用命令行的 **Git Bash** 工具（已经自带了 SSH 客户端）
 * 另外还有一个图形界面的 Git 项目管理工具，在开始菜单里找到"**_Git_**"->"**_Git Bash_**"，会弹出 Git 命令窗口，你可以在该窗口进行 Git 操作。
 
