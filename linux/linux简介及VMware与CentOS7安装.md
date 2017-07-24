@@ -6,6 +6,7 @@
 * Minux操作系统是linux操作系统的前身
 * Linus Towards根据Minix写了Minix, Linux
 * Linux在移动设备Android, 在车载导航 工业 服务器
+
 ---
 
 ## 为什么选择linux做服务器呢？
@@ -29,6 +30,7 @@
 安装包下载地址：[https://my.vmware.com](https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/12_0)
 * 下载并运行安装文件
 * 安装完成之后输入激活码激活软件
+
 ---
 ### CentOS7安装、设置共享文件、VMware Tools安装
 
@@ -37,7 +39,9 @@ ISO镜像文件下载地址:
 * CentOS系统安装百度网盘有详细文档介绍
 
   [http://pan.baidu.com/s/1pLM91Uj](http://pan.baidu.com/s/1pLM91Uj)  密码：248f
+
 ---
+
 ### Linux内部结构
 
 * boot 文件夹 放操作系统内核
