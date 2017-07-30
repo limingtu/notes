@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+		<meta name="Author" content="Crystal">
+		<meta name="Keywords" content="关键字,关键词">
+		<meta name="Description" content="描述和简介">
+		<title>商城登录界面</title>
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			body,d1,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+			ol,ul,li{list-style:none;margin:0;padding:0;}
+			a{text-decoration:none;}
+			img{border:none;}
+
+      .con{position: relative; width: 1420px;height: 520px;background: url("images/demo1/dlbg.jpg") no-repeat;margin: 100px auto;}
+      /** login begin **/
+      .con .form{position: absolute; top:60px; right: 80px; width: 340px;height: 415px;background-color: #F5EAE9; }
+      .con .form .top{width:340px; height: 285px;border-bottom: 1px dotted #ccc;}
+
+      .con .form .top input{
+    	border:1px solid #ddd;
+    	width:253px;
+    	height:38px;
+    	font-size:14px;
+    	font-family:"微软雅黑";
+    	text-indent:52px;
+    	margin: 35px 15px -20px 40px;
+    }
+    .con .form .top .yhm{background: url("images/demo1/zhanghao.jpg") no-repeat 0 -2px;}
+    .con .form .top .mm{background: url("images/demo1/mima.jpg") no-repeat 0 -2px;}
+    .con .form .top .ck{width:auto;height:auto;border:0px;  }
+    .con .form .top .comm{font-size: 12px;font-family: "微软雅黑"; }
+    .con .form .top .comm:hover{color:#ff6633;text-decoration:underline;}
+
+    .con .form .top .cktxt{font-size:12px;font-family: "微软雅黑"; margin: -10px;}
+
+    .con .form .top .but{background: url("images/demo1/but.jpg") no-repeat 0 -2px;}
+    .con .form .bottom{margin-top: 20px;text-align: center; font-size: 14px;font-family: "微软雅黑";}
+      /** login end **/
+		</style>
+
+	</head>
+<body>
+
+  <div class="con">
+    <!-- login begin-->
+    <div class="form">
+        <form action="form.asp" name= "loginForm" method="post" >
+          <div class="top">
+              <input type="text" name="yhm" class="yhm" value="" placeholder="用户名/邮箱地址/手机号"/><br/>
+              <input type="password" name="password" class="mm" value="" placeholder="填写密码"/><br/>
+              <input type="checkbox" class="ck" name="rm" id="ckbox" value="" checked="checked" /><label for="ckbox" class="cktxt">记住帐号</label>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="" class="comm">欢迎注册</a>&nbsp;&nbsp;<a href="" class="comm">忘记密码？</a>
+					    <input type="submit" class="but" value=""/>
+          </div>
+        </form>
+        <div class="bottom">
+            合作网站账号登录：
+            <a href="#" ><img src="images/demo1/weixin.png"/></a>&nbsp;
+            <a href="#" ><img src="images/demo1/qqlogin.png"/></a>&nbsp;
+            <a href="#" ><img src="images/demo1/taobao.png"/></a>
+        </div>
+    </div>
+    <!-- login end-->
+  </div>
+
+</body>
+</html>
