@@ -117,3 +117,5 @@
 > `nginx -V : 查看该Win32平台编译版支持哪些模块`
 
 + **Nginx 的CentOS7安装**
+
+> `yum -y install net-tools`

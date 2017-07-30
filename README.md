@@ -16,13 +16,18 @@
 * [Markdown使用](git_notes/Markdown文档使用说明和案例.md)
 
 
+> **Nginx**
+
+* [Nginx介绍与安装](Nginx/Nginx介绍与安装.md)
+
+
 > **大数据**
 
 * Linux
   + [Linux 简介及VMware与CentOS7安装](linux/linux简介及VMware与CentOS7安装.md)
   + [Linux命令](http://man.linuxde.net)
 
-  
+
 
 
 
