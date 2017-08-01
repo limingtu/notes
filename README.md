@@ -13,7 +13,7 @@
 
 > **Github Markdown 笔记**
 
-* [Markdown使用](git_notes/Markdown文档使用说明和案例.md)
+* [Markdown使用](markdown/Markdown文档使用说明和案例.md)
 
 
 > **大数据**
@@ -22,7 +22,7 @@
   + [Linux 简介及VMware与CentOS7安装](linux/linux简介及VMware与CentOS7安装.md)
   + [Linux命令](http://man.linuxde.net)
 
-  
+
 
 
 
