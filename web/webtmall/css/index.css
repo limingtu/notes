@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body{font: 12px "Microsoft Yahei"; color: #999;}
+/*开始  头部导航*/
+
+/*左边*/
+.h-nav{height: 32px;background:#F2F2F2;border-bottom: 1px solid #ddd;}
+.nav-content{width:1230px; margin: auto;}
+.nav-content .c-left{line-height: 32px;}
+.nav-content .c-left a{margin-left: 10px;}
+.nav-content .c-left a:hover{color: #FF0036;}
+
+/*右边*/
+.nav-content .c-right > li{line-height: 32px;margin-left: 10px;}
