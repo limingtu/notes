@@ -58,5 +58,12 @@ body{font: 12px "Microsoft Yahei"; color: #999;}
 .nav-content .c-right > li.menu-item .sub-menu > a:hover{text-decoration:underline;color:#FF0036;}
 
 /*搜索栏*/
-.sect-area{height:130px;border:1px solid red;}
-.sect-area .logo{border: 1px solid blue;}
+.sect-area{height:130px;}
+.sect-area .logo{margin-left:320px;}
+.sect-area .sect{font: 14px/1.5 tahoma,arial,"\5b8b\4f53";font-weight: normal;height: 68px;width: 635px;margin-top: 35px; margin-left:120px;}
+.sect-area .sect input{width: 492px;height:40px;border:2px solid #FF0036;}
+.sect-area .sect button{width: 132px;height:46px;background:#FF0036; font-size: 19px; font-weight: bold;color:#fff;
+  margin-left: -5px;vertical-align: middle;border: none;}
+.sect-area .sect > ul{margin-top:5px;}
+.sect-area .sect > ul li{display: inline-block;border-left: 1px solid #ccc;line-height: 1.1;padding: 0 12px;}
+.sect-area .sect > ul > li:nth-child(1){border-left: none; padding-left: 0px;}
