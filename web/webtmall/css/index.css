@@ -7,8 +7,56 @@ body{font: 12px "Microsoft Yahei"; color: #999;}
 .h-nav{height: 32px;background:#F2F2F2;border-bottom: 1px solid #ddd;}
 .nav-content{width:1230px; margin: auto;}
 .nav-content .c-left{line-height: 32px;}
-.nav-content .c-left a{margin-left: 10px;}
+.nav-content .c-left a{margin-left: 22px;}
 .nav-content .c-left a:hover{color: #FF0036;}
 
 /*右边*/
-.nav-content .c-right > li{line-height: 32px;margin-left: 10px;}
+.nav-content .c-right{line-height: 32px;line-height:32px;}
+.nav-content .c-right > li{float: left;padding: 0 10px;}
+.nav-content .c-right > li:hover{color:#FF0036;}
+.nav-content .c-right > li.menu-item{height: 32px;}
+.nav-content .c-right > li.menu-item:hover a{text-decoration: underline;color:#FF0036;}
+.nav-content .c-right > li.menu-item:hover{background:#fff;border-right-color:#ddd;border-left-color: #ddd;}
+.nav-content .c-right > li.menu-item:hover::before{transition: .2s;transform: rotate(180deg);}
+.nav-content .c-right > li.menu-item:before{
+  content:'';
+  float:right;
+  width:0px;
+  height:0px;
+  border:3px solid transparent;
+  border-top-color:#999;
+  border-bottom:none;
+  margin:15px 0 0 3px;
+}
+.nav-content .c-right span{
+  line-height: 12px;
+  font-size: 12px;
+  color:#ccc;
+  top: 50%;
+  margin-top: -7px;
+  left: 345px;
+}
+.iconfont{line-height: 12px;color: #FF0036;font-size: 12px;}
+
+/*sub-menu 宝贝 店铺 商家 网站导航*/
+.nav-content .c-right > li.menu-item .sub-menu{
+    position: absolute;
+    top: 32px;
+    left: -1px;
+    width: 72px;
+    height: 36px;
+    line-height: 18px;
+    padding: 14px 14px;
+    border: 1px solid #eee;
+    border-top-color: #fff;
+    display: none;
+}
+/*sub-menu 店铺*/
+.nav-content .c-right > li.menu-item .sub-menu.dianpu{width: 60px;}
+.nav-content .c-right > li.menu-item:hover .sub-menu{ display: block;}
+.nav-content .c-right > li.menu-item .sub-menu > a{padding-bottom: 5px;text-decoration: none;color:#999;}
+.nav-content .c-right > li.menu-item .sub-menu > a:hover{text-decoration:underline;color:#FF0036;}
+
+/*搜索栏*/
+.sect-area{height:130px;border:1px solid red;}
+.sect-area .logo{border: 1px solid blue;}
