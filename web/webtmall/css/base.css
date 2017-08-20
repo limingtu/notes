@@ -7,7 +7,7 @@ a{text-decoration:none;color:inherit;outline:none;}
 body{font:14px/1.5 'Microsoft Yahei',sans-serif;/*sans-serif 是手机默认字体*/}
 
 /*---------------------------------------
-				 font 
+				 font
 ---------------------------------------*/
 /*** font-size***/
 .f-siz12{font-size:12px;}
@@ -25,7 +25,7 @@ body{font:14px/1.5 'Microsoft Yahei',sans-serif;/*sans-serif 是手机默认字�
 .f-wei-b{font-weight: bold;}
 .f-sty-nor{font-style: normal;}
 /*--------------------------
-		 border 
+		 border
 -----------------------------*/
 .bor{border:1px solid #eee;}
 .bor-t{border-top:1px solid #eee;}
@@ -300,6 +300,3 @@ body{font:14px/1.5 'Microsoft Yahei',sans-serif;/*sans-serif 是手机默认字�
 .bgc-a0f{background-color:#a0f;}
 .bgc-0af{background-color:#0af;}
 .bgc-0fa{background-color:#0fa;}
-
-
-
