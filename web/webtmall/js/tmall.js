@@ -139,15 +139,13 @@ $(function(){
     // 直播区轮播图
     var a = $(".live .con-2");
     var li_width = a.find("li").width();
-    var li_height = a.find("li").height();
     var margin_right = parseInt(a.find("li").css("margin-right"));
     // console.log(li_width);
     // console.log(margin_right);
 
     // 右移 3倍li的宽度+3倍的margin-right
     a.find(".next").on("click",function(){
-     a.find("ul").animate({"margin-left":-(3*li_width+3*margin_right)});
-     a.find("ul").css("margin-right",0);
+     a.find("ul").animate({"margin-left":-(3*li_width+3*margin_right)},500);
      //左边按钮隐藏
      a.find(".prev").show();
      a.find(".next").hide();
@@ -155,8 +153,7 @@ $(function(){
 
     // 左移 3倍li的宽度+3倍的margin-right
     a.find(".prev").on("click",function(){
-      a.find("ul").animate({"margin-right":(3*li_width+3*margin_right)});
-      a.find("ul").css("margin-left",0);
+      a.find("ul").animate({"margin-left":0},500);
       //右边按钮隐藏
       a.find(".next").show();
       a.find(".prev").hide();
