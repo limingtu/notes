@@ -12,6 +12,7 @@ $(function(){
   var tempImg = img[num];
   var timer;//计时器
   var timer1;//计时器
+  var timer2;//产品楼层滚动
 
   //图片显示
   tempImg.style.display = 'block';
@@ -174,5 +175,32 @@ $(function(){
     });
 
 
+    //产品楼层
+    scrollFloor();
+    function scrollFloor(){
+      timer2 = setInterval(function(){
+        autoScrollFloor();
+      },5000);
+    }
+
+    function autoScrollFloor() {
+        $(".bot-left").find("ul:first").animate({
+            marginTop: "-40px"
+        },
+        5000,
+        function() {
+            $(this).css({
+                marginTop: "0px"
+            }).find("li:first").appendTo(this);
+
+            $(this).find("li").mouseover(function(e){
+                  clearInterval(timer2);
+            });
+            //鼠标移开
+            $(this).find("li").mouseout(function(e){
+                scrollFloor();
+            });
+        });
+    }
 
  });
