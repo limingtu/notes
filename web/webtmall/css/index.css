@@ -44,7 +44,6 @@ body{font: 12px "Microsoft Yahei"; color: #999;background:#F5F5F5;}
 .nav-content .c-right > li.menu-item .sub-menu-2 li > ul.market > li a:hover{color:#2263d4;text-decoration: underline;}
 .nav-content .c-right > li.menu-item .sub-menu-2 li > ul.brand > li a:hover{color:#000;text-decoration: underline;}
 .nav-content .c-right > li.menu-item .sub-menu-2 li > ul.help > li a:hover{color: #000;text-decoration: underline;}
-.nav-content .c-right > li.menu-item .sub-menu-2 li > ul > li .iconfont{position:absolute;}
 .nav-content .c-right > li.menu-item .sub-menu-2 li.sub-Market{width:375px;}
 .nav-content .c-right > li.menu-item .sub-menu-2 li.sub-Market h3{color: #2263d4;font-size: 16px;font-weight: 100;}
 .nav-content .c-right > li.menu-item .sub-menu-2 li.sub-Brand{width:270px;}
