@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="Author" content="小明">
+<title>h5个人简历</title>
+<style type="text/css">
+    *{
+        padding:0;margin:0;
+    }
+    li{
+        list-style:none;
+    }
+    a{
+        text-decoration:none;
+        color:#000;
+    }
+    body{
+        background:#ddd;
+        font-family:"Microsoft yahei";
+    }
+    .resume{
+        margin:50px auto 0;
+        width:850px;
+    }
+    .left{
+        width:240px;
+        height:100%;
+        float:left;
+        margin-right:10px;
+    }
+    .left figure{
+        height:300px;
+        background:#000;
+        color:#fff;
+        text-align:center;
+        padding-top:30px;
+        margin-bottom:10px;
+    }
+    .left figure figuration{
+        display:block;
+        margin-bottom:30px;
+    }
+     .left figure figuration h1 span{
+        color:#FFD041;
+    }
+    .left figure img{
+        border:5px solid #FFD041;
+        border-radius:50%;
+    }
+    .left section{
+        width:100%;
+        height:300px;
+        background:#FFD041;
+    }
+    .left nav{
+        height:300px;
+        width:100%;
+        background:#FFD041;
+    }
+    .left nav ul{
+        padding-top:10px;
+    }
+    .left nav ul li{
+        height:40px;
+        border-bottom:1px solid #333;
+        text-align:right;
+        line-height:40px;
+        padding-right:10px;
+    }
+   .left nav ul li:first-child{
+        background:#000;
+
+    }
+    .left nav ul li:first-child a{
+        color:#FFD041;
+    }
+    .right{
+        float:left;
+    }
+    .right header{
+        height:100px;
+        width:600px;
+        background:#000;
+        color:#fff;
+        font:32px/130px "宋体";
+        text-indent:30px;
+    }
+    .right header span{
+       color:#FFD041;
+    }
+    .right article{
+        width:560px;
+        height:490px;
+        background:#fff;
+        margin-top:10px;
+        padding:20px;
+    }
+    .right article .one h3{
+        font-size:24px;
+    }
+    .right article .one  h3 mark{
+        background:#FFD041;
+    }
+    .right article .one  h4{
+        color:#B5B5B5;
+        margin-top:10px;
+    }
+    .right article p{
+        color:#a1a1a1;
+        font:14px/30px "microsoft yahei";
+        text-indent:2em;
+    }
+    .two{
+        margin-top:80px;
+    }
+    .two h2{
+        margin:30px;
+    }
+    .two p span{
+        display:inline-block;
+        margin:5px;
+        width:100px;
+        height:35px;
+        background:#000;
+        vertical-align: middle;
+    }
+    .two p meter{
+         width:260px;
+         height:35px;
+         vertical-align: middle;
+         background:#000;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="resume">
+        <div class="left">
+            <figure>
+                <figuration>
+                    <h1>Wendy<span>Alex</span></h1>
+                    <h3>前端工程师</h3>
+                </figuration>
+                <img width="150px" height="150px" src="images/demo1/1.png" alt="简历照片"/>
+            </figure>
+            <nav>
+                <ul>
+                    <li><a href="">HOME | 家庭地址</a></li>
+                    <li><a href="">RESUME | 个人简介</a></li>
+                    <li><a href="">CONTACT | 联系方式</a></li>
+                    <li><a href="">PORTFOLIO | 工作经验</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <header><span>Welcome To </span>My Profile</header>
+            <article>
+                <section class="one">
+                    <h3>Hello!I'm <mark>Wendy Alex</mark></h3>
+                    <h4>Web developer</h4>
+                </section>
+                <p>
+                    主攻前端和NodeJS开发，6年+前端开发经验，呆过大公司和小团队，从0组建20人前端NodeJS混合开发团队，带领团队利用最新技术解决业务快速发展过程中的各种业务场景问题。熟悉客户端开发，有多个上架APP，有java开发经验
+                </p>
+                <section class="two">
+                    <h2>My Info</h2>
+                     <p>
+                         <span>div+css</span>
+                         <meter value="80" min="0" max="100" low="10" high="60"></meter>
+                     </p>
+                     <p>
+                         <span>javscript</span>
+                         <meter value="70" min="0" max="100" low="10" high="60"></meter>
+                     </p>
+                     <p>
+                         <span>h5+css3</span>
+                         <meter value="60" min="0" max="100" low="10" high="60"></meter>
+                     </p>
+                     <p>
+                         <span>character</span>
+                         <meter value="90" min="0" max="100" low="10" high="60"></meter>
+                     </p>
+                </section>
+            </article>
+        </div>
+        <footer></footer>
+    </div>
+
+</body>
+</html>

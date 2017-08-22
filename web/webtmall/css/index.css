@@ -102,8 +102,8 @@ body{font: 12px "Microsoft Yahei"; color: #999;background:#F5F5F5;}
 .main-nav .nav-bar .nav-box ul > li{display:inline-block;padding-left: 25px;}
 .main-nav .nav-bar .nav-box  ul > li img{width: 90px;height: 36px;}
 .main-nav .nav-bar .nav-box  ul > li  a{position: relative;}
-.main-nav .nav-bar .nav-box  ul > li  a .maomao{position:absolute;top:0px;left: 50%;width: 40px;height: 15px;opacity: 0;background: url(../images/02-banner/maomao.png) no-repeat top center/cover;background-size: 40px 15px;display: none;}
-.main-nav .nav-bar .nav-box  ul > li:hover .maomao{display: block;opacity: 1;transform: translate(-20px,-15px);}
+.main-nav .nav-bar .nav-box  ul > li  a .maomao{position:absolute;top:0px;left: 50%;width: 40px;height: 15px;opacity: 0;background: url(../images/02-banner/maomao.png) no-repeat top center/cover;background-size: 40px 15px;}
+.main-nav .nav-bar .nav-box  ul > li:hover .maomao{opacity: 1;transition: opacity .5s,translate .5s;transform: translate(-20px,-15px);}
 
 /*轮播图*/
 .banner-wrap{background:#D28B37;height:500px;}
@@ -307,7 +307,7 @@ body{font: 12px "Microsoft Yahei"; color: #999;background:#F5F5F5;}
 .pro-floor .pro-cont .fl-top div a{margin-right: 10px;font-size: 14px;}
 .pro-floor .pro-cont .fl-top div a:hover{border-bottom:1px solid #000;}
 .pro-cont .fl-bot .bot-left{position:relative;width:246px;}
-.pro-cont .fl-bot .bot-left img{width: 248px;height: 330px;transition: 1s;}
+.pro-cont .fl-bot .bot-left img{width: 246px;height: 330px;transition: 1s;}
 .pro-cont .fl-bot .bot-left:hover img{opacity:.7;}
 .pro-cont .fl-bot .bot-left ul{position: absolute;bottom:110px;left: 0;width:246px;height:30px;background:rgba(255,255,255,.7);color:#000;font-size:14px;text-align:center;line-height:30px;overflow: hidden;}
 .pro-cont .fl-bot .bot-left ul:hover{color:#FF0036;}
@@ -316,7 +316,7 @@ body{font: 12px "Microsoft Yahei"; color: #999;background:#F5F5F5;}
 .pro-cont .fl-bot .bot-left div p{font-size:22px;margin-top:20px;}
 .pro-cont .fl-bot .bot-left div span{margin-top: 5px; display: block;}
 .pro-cont .fl-bot .bot-left div div{position:absolute;bottom:0;width:100%;height:30px;background:url('../images/05-floor/2.png') no-repeat center;}
-.pro-cont .fl-bot .bot-middle{width:735px;height:470px;overflow: hidden;}
+.pro-cont .fl-bot .bot-middle{width:735px;height:440px;overflow: hidden;}
 .grid{position:relative;z-index: 1;float:left;padding:25px 0 0 20px;background:#fff;border-right:1px solid #eee;border-bottom:1px solid #eee;}
 .one-grid{width:224px;height: 194.5px;}
 .grid:hover img{right:15px;}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="小明">
+		<title>我好累的</title>
+		<style type="text/css">
+			.content {padding:30px;}
+			.tabs {
+			  width: 300px;
+			  float: none;
+			  list-style: none;
+			  position: relative;
+			  text-align: left;
+			}
+			.tabs li {
+			  float: left;
+			  display: block;
+			}
+			.tabs input[type="radio"] {
+			  position: absolute;
+			  top: -999px;
+			  left: -999px;
+			}
+			.tabs label {
+			  display: block;
+			  padding: 14px 21px;
+			  border-radius: 2px 2px 0 0;
+			  font-size: 20px;
+			  font-weight: normal;
+			  background: #6A9E52;
+        border-bottom:2px solid #fff;
+			  cursor: pointer;
+			  position: relative;
+			  top: 4px;
+			  -webkit-transition: all 0.2s ease-in-out;
+			  transition: all 0.2s ease-in-out;
+			}
+			.tabs label:hover {
+			  background: #508438;
+			}
+			.tabs .tab-content {
+			  z-index: 2;
+			  display: none;
+			  overflow: hidden;
+			  width: 100%;
+			  font-size: 17px;
+			  line-height: 25px;
+			  padding: 25px;
+			  position: absolute;
+			  top: 53px;
+			  left: 0;
+			  background: #376B1F;
+			}
+			.tabs [id^="tab"]:checked + label {
+			  top: 0px;
+			  padding-top: 17px;
+			  background: #376B1F;
+			  text-decoration:underline;
+			}
+			.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+			  display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+		<ul class="tabs">
+			<li>
+				<input type="radio" name="tabs" id="tab1" checked="">
+				<label for="tab1">头条</label>
+				<div id="tab-content1" class="tab-content">
+                    <p>今天我好累啊今天我好累啊今天我好累啊</p>
+                    <p>今天我好累啊今天我好累啊今天我好累啊</p>
+                    <p>今天我好累啊今天我好累啊今天我好累啊</p>
+                    <p>今天我好累啊今天我好累啊今天我好累啊</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" id="tab2">
+                <label for="tab2">公告</label>
+                <div id="tab-content2" class="tab-content">
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" id="tab3">
+                <label for="tab3">足球</label>
+                <div id="tab-content3" class="tab-content">
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+									<p>今天我好累啊今天我好累啊今天我好累啊</p>
+                </div>
+            </li>
+		</ul>
+		</div>
+	</body>
+</html>
