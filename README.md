@@ -22,11 +22,9 @@
 
 
 > **大数据**
-
-* Linux
   + [Linux 简介及VMware与CentOS7安装](linux/linux简介及VMware与CentOS7安装.md)
   + [Linux命令](http://man.linuxde.net)
-
+  + [Linux基础](bigData/linux基础.md)
 
 
 
@@ -37,6 +35,11 @@
 ---
 
 ## 网站
+
+#### 个人网站
+
+* [天猫网站](https://limingt.com)
+
 
 #### 技术网站或论坛
 
