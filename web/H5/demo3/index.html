@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="小明">
+		<title>我好累的</title>
+		<style type="text/css">
+		*{margin: 0;padding: 0;}
+		ul li{list-style: none;}
+		a{text-decoration: none;}
+		.clearfix:after{
+			content: '';
+			display: block;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+		.fl{float:left;}
+		.fr{float:right;}
+		.warp-list{width: 303px;height: 30px;margin:30px 500px;background: pink;line-height: 30px;text-align: center;overflow: hidden;}
+		.warp-list li{width: 100px;border-right: 1px solid #fff;}
+		.warp-list li a{display: block;width: 100px;color:#fff;background: pink;}
+		.warp-bottom{transition: 1s;}
+		.warp-list li.two .close:hover .warp-bottom{height: 150px;visibility: visible;}
+
+		</style>
+	</head>
+	<body>
+		<div class="warp">
+			<ul class="warp-list clearfix">
+				<li class="one fl"><a href="#">首页</a></li>
+				<li class="two fl">
+					<a class="close" href="#">衣服</a>
+					<div class="warp-bottom">
+						<a href="#">夹克</a>
+						<a href="#">衬衫</a>
+						<a href="#">羽绒服</a>
+						<a href="#">大衣</a>
+					</div>
+				</li>
+				<li class="three fl"><a href="#">裤子</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
