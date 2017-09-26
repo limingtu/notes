@@ -25,7 +25,7 @@
   + [Linux 简介及VMware与CentOS7安装](linux/linux简介及VMware与CentOS7安装.md)
   + [Linux命令](http://man.linuxde.net)
   + [Linux基础](bigData/linux基础.md)
-
+  + [Hadoop2X管理与开发](bigData/Hadoop2X管理与开发.md)
 
 
 
