@@ -4,11 +4,16 @@
 
 ## 学习笔记
 
+> **开发常用工具**
+
+* [开发常用工具](git_notes/2016-06-02-Develop_Tool.md)
+
+
 > **git 笔记**
 
-* [git 基本命令](git_notes/Git基本命令.md)
-* [git 简明指南](git_notes/Git简明指南.md)
-* [git Git使用](git_notes/Git使用.md)
+* [git 基本命令](git_notes/2016-04-12-GitBasicCommand.md)
+* [git 简明指南](git_notes/2016-04-12-GitGuides.md)
+* [git Git使用](git_notes/2016-04-12-GitUse.md)
 
 
 > **Github Markdown 笔记**
