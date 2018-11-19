@@ -1,16 +1,9 @@
----
-layout: post
-title: "开发常用工具"
-date: 2016-06-02 11:15:06
-comments: true
-tags: 
-	- 工具 
----
+## 开发常用工具
 
 工欲善其事必先利其器，选择一些好的工具可以成吨的提高自己的工作效率。
 
 ### 个人开发常用工具的收集
- 
+
 * [cmd Markdown](https://www.zybuluo.com/mdeditor) 作业部落出版的Markdown编辑器       
 * [RESTClient](https://github.com/rest-client/rest-client) 一个开源的客户端HTTP调试工具。    
 * [lantern](https://github.com/getlantern/lantern) 蓝灯,一款开源的翻墙工具。    
@@ -43,5 +36,3 @@ tags:
 [flaticon](http://www.flaticon.com/) 各种icon的设计，一定有你想想要的。
 
 <br>
-
-

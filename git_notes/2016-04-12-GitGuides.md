@@ -1,11 +1,5 @@
----
-layout: post
-title: "Git简明指南"
-date: 2016-04-12
-comments: true
-tags:
-	- 工具
----
+
+## Git简明指南
 
 原文来自：[菜鸟教程 - git 简明指南](http://www.runoob.com/manual/git-guide/)
 
